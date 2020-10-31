@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Obv not a sustainable approach
+index.js
+use-datadog.js
