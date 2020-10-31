@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx jest --coverage",
     "prebuild": "npx rimraf index.js use-datadog.js",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "tsc index.ts"
   },
   "repository": {
