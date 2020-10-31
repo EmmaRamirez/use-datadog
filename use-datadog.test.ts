@@ -1,6 +1,6 @@
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-import { useDatadog } from './use-datadog';
+import { useDatadog, useDatadogRum } from './use-datadog';
 
 describe(useDatadog.name, () => {
     it('works syntactically inside a react component', () => {
@@ -20,5 +20,25 @@ describe(useDatadog.name, () => {
         expect(result).toBeDefined();
         expect(html).toContain('Hello');
         expect(log).toHaveBeenCalled();
+    });
+});
+
+describe(useDatadogRum.name, () => {
+    it('works syntactically inside a react components', () => {
+        const component = function () {
+            const {addRumGlobalContext} = useDatadogRum({
+                applicationId: 'pub-xyz',
+                clientToken: 'pub-xyz',
+            });
+
+            addRumGlobalContext('hi :]', { dog: 'maybe' });
+            
+            return React.createElement('div', {children: 'Hello :]'});
+        }
+        const result = React.createElement(component);
+        const html = renderToString(result);
+        expect(component).toBeDefined();
+        expect(result).toBeDefined();
+        expect(html).toContain('Hello');
     });
 });
