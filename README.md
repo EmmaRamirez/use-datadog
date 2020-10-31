@@ -1,6 +1,7 @@
 # use-datadog
-:dog: use datadog from a hook [![Build Status](https://travis-ci.org/EmmaRamirez/use-datadog.svg?branch=main)](https://travis-ci.org/EmmaRamirez/use-datadog)
- [![Coverage Status](https://coveralls.io/repos/github/EmmaRamirez/use-datadog/badge.svg?branch=main)](https://coveralls.io/github/EmmaRamirez/use-datadog?branch=main)
+:dog: use datadog from a hook
+[![Build Status](https://travis-ci.org/EmmaRamirez/use-datadog.svg?branch=main)](https://travis-ci.org/EmmaRamirez/use-datadog) [![Coverage Status](https://coveralls.io/repos/github/EmmaRamirez/use-datadog/badge.svg?branch=main)](https://coveralls.io/github/EmmaRamirez/use-datadog?branch=main) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/emmaramirez/use-datadog)
+
 ## Usage
 
 ```bash
