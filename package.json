@@ -1,6 +1,6 @@
 {
   "name": "use-datadog",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "use datadog from a react-hook",
   "main": "index.js",
   "scripts": {
