@@ -1,6 +1,4 @@
-import { datadogLogs } from '@datadog/browser-logs';
 import React from 'react';
-import { render } from 'react-dom';
 import { renderToString } from 'react-dom/server';
 import { useDatadog } from './use-datadog';
 
