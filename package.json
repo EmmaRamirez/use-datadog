@@ -1,0 +1,24 @@
+{
+  "name": "use-datadog",
+  "version": "0.0.1",
+  "description": "use datadog from a react-hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaRamirez/use-datadog.git"
+  },
+  "keywords": [
+    "datadog",
+    "react",
+    "react-hook"
+  ],
+  "author": "EmmaRamirez <ramirez.emma.g@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmmaRamirez/use-datadog/issues"
+  },
+  "homepage": "https://github.com/EmmaRamirez/use-datadog#readme"
+}
