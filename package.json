@@ -3,6 +3,10 @@
   "version": "1.0.5",
   "description": "use datadog from a react-hook",
   "main": "index.js",
+  "files": [
+    "./index.js",
+    "./use-datadog.js"
+  ],
   "scripts": {
     "test": "npx jest --coverage",
     "prebuild": "npx rimraf index.js use-datadog.js",
